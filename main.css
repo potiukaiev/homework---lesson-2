@@ -55,13 +55,15 @@ a {
 	font-size: 0.9em;
 }
 
+.cup__wrapper{
+	width: 15px;
+}
+
 .cup {
 	font-size: 1em;
 	margin-top: 15px;
 }
-.cup__wrapper{
-	width: 15px;
-}
+
 
 /*CUBES*/
 .inner__wrapper {
