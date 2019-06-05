@@ -6,7 +6,60 @@ html {
 html *{
 	box-sizing: border-box;
 	margin: 0;
+	font-family: "Arial", Serif, sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
+/*Required*/
+.required {
+	font-size: 1.6em;
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+.required__inner__wrapper{
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 10px;
+	border: 1px solid #F5F5F5;
+}
+
+.content_container{
+	border: 1px solid #F5F5F5;
+	padding: 40px 10px 15px 10px;
+}
+
+.headliner_wrapper{
+	width: 100%;
+	border-bottom: solid 1px #F5F5F5;
+	padding: 0 0 10px 0;
+	font-size: 1.4em;
+}
+.paragraph__wrapper{
+	padding-top: 10px;
+}
+
+.formula_wrapper{
+	padding: 20px 0 10px;
+	width: 100%;
+	border-bottom: solid 1px #F5F5F5;
+}
+
+.graybg_wrapper{
+	background-color: #F5F5F5;
+	width: 100%;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-size: 0.9em;
+}
+
+.cup {
+	font-size: 1em;
+	margin-top: 15px;
+}
+
 
 /*CUBES*/
 .inner__wrapper {
@@ -34,31 +87,24 @@ html *{
 	color: blue;
 }
 
+/*BUTTON*/
 
-.hyperlink img{
+.button__wrapper {
 	position: relative;
 	height: 116px;
 	width: 167px;
 	border-radius: 25px;
-	/*box-shadow: 0.3em 0.3em 15px rgba(0,0,0, .9);*/
-	box-shadow:inset 100em 10em 0px rgba(0,0,0, .9);
+	box-shadow: 0.5em 0.5em 10px rgba(0,0,0, .9);
+	background: url("img/logo2018.png") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
-.begin_english_button div {
-	position: relative;
-	height: 116px;
-	width: 167px;
-	border-radius: 25px;
-	/*box-shadow: 0.3em 0.3em 15px rgba(0,0,0, .9);*/
-	box-shadow:inset 2em 2em 0px rgba(0,0,0, .9);
-}
-
-.hyperlink img:hover {
+.button__wrapper:hover {
 	height: 174px;
 	width: 250.5px;
 	border-radius: 25px;
 	transition: height .3s, width .3s;
-	box-shadow:inset 3em 3em 15px rgba(0,0,0, .9);
+	box-shadow:inset 0.5em 0.5em 15px rgba(0,0,0, .9);
 }
-
 
