@@ -59,7 +59,9 @@ a {
 	font-size: 1em;
 	margin-top: 15px;
 }
-
+.cup__wrapper{
+	width: 15px;
+}
 
 /*CUBES*/
 .inner__wrapper {
